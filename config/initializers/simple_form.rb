@@ -2,6 +2,9 @@
 SimpleForm.setup do |config|
   config.input_class = "form-control"
 
+  # Removed ateriks from simple_form
+  config.label_text = lambda { |label, required, explicit_label| "#{label}" }
+
   # Wrappers are used by the form builder to generate a
   # complete input. You can remove any component from the
   # wrapper, change the order or even add your own to the
