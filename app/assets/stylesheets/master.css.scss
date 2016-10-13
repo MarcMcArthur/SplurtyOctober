@@ -37,6 +37,9 @@
   font-size: 25px;
   text-decoration: none;
   border-bottom: 1px solid #807658;
+  font-family: 'alex_brushregular', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 header {
@@ -45,6 +48,18 @@ header {
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'alex_brushregular', sans-serif; 
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'alex_brushregular', sans-serif;
+  letter-spacing: 1.5px;
 }
 
 
