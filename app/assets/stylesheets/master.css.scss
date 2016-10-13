@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
 .clear {
   clear: both;
 }
@@ -40,6 +42,29 @@
   font-family: 'alex_brushregular', sans-serif;
   font-weight: bold;
   letter-spacing: 1.5px;
+}
+
+.next-quote {
+  color: #8C7A32;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 20px;
+}
+
+.next-quote:hover {
+  text-decoration: none;
+  color: #8C7A32;
+}
+
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 10px;
+}
+
+.footer-blurb a {
+  text-decoration: none;
+  color: #8C7A32;
 }
 
 header {
